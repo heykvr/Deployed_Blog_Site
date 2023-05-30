@@ -1,0 +1,62 @@
+.input{
+    display: flex;
+    flex-direction: column;
+    margin: var(--m-1) ;
+}
+
+input ,textarea{
+    border-radius: var(--m-1);
+    font-size: var(--text-medium);
+    outline-width: 1px;
+    padding: var(--m-0-5);
+
+}
+
+textarea { resize: vertical; }
+
+.input > label{
+    margin-bottom: var(--m-0-5);
+    font-size: var(--text-large);
+   text-transform: capitalize;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+   font-size: var(--m-2);
+   padding: var(--m-0-5);
+   border-radius: var(--m-1);
+}
+
+
+.form__container{
+    padding: var(--m-1);
+    background-color: antiquewhite;
+    border-radius: var(--m-2);
+}
+
+.blog__author{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    width: min-content;
+    padding: var(--m-0-5);
+    border-radius: var(--m-0-5);
+}
+
+.user__photoURL{
+    margin: 0 var(--m-1);
+    height: 50px;
+    width: 50px;
+    border-radius: 100% ;
+}
+
+.logout__icon{
+    font-size: var(--m-2);
+    padding: var(--m-0-5);
+}
+
+.logout__icon:hover{
+    color: gray;
+}
